@@ -1,0 +1,22 @@
+﻿public class PlayerCharacter : BaseCharacter {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
