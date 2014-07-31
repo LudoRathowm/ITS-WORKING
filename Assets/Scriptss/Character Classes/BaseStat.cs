@@ -1,4 +1,5 @@
 ﻿public class BaseStat {
+	public const int STARTING_EXP_COST = 100;
 	private int _baseValue; //The base value of the stat es. the points from RO
 	private int _buffValue; //The amount of the buff to this stat
 	private int _expToLevel; //Exp needed to raise stats again

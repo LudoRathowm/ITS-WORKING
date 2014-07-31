@@ -60,7 +60,7 @@ public class CharacterGenerator : MonoBehaviour {
 		DisplayAttributes ();
 		DisplayVitals ();
 		DisplaySkills ();
-		if (_faget.Name == "" || pointsLeft > 0)
+		if (_faget.Name == "" || pointsLeft > 70)
 		DisplayCreateLabel ();
 		else
 		DisplayCreateButton ();
@@ -143,7 +143,7 @@ public class CharacterGenerator : MonoBehaviour {
 		}
 	}
 	private void UpdateCurVitalValues(){
-		for (int cnt = 0; cnt < Enum.GetValues(typeof(AttributeName)).Length; cnt++) {
+		for (int cnt = 0; cnt < Enum.GetValues(typeof(VitalName)).Length; cnt++) {
 			_faget.GetVital(cnt).CurValue = _faget.GetVital(cnt).AdjustedBaseValue;		
 		}
 	}
