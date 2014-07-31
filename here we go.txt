@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 okay this should be better
+=======
+got buns?
+>>>>>>> origin/master
