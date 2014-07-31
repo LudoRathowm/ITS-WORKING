@@ -48,7 +48,7 @@ public class GameMaster : MonoBehaviour {
 			gs1.name = "gameSettings";
 		}
 
-		GameSettings gsScript = GameObject.Find("__Game Settings").GetComponent<GameSettings>();
+		GameSettings gsScript = GameObject.Find("gameSettings").GetComponent<GameSettings>();
 
 	
 		//Loading
