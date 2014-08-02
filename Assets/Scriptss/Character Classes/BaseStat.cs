@@ -4,6 +4,7 @@
 	private int _buffValue; //The amount of the buff to this stat
 	private int _expToLevel; //Exp needed to raise stats again
 	private float _levelModifier; //exp modifier for levels
+	private string _name;
 
 	public BaseStat () {
 		_baseValue = 0;
@@ -30,6 +31,11 @@
 		get { return _levelModifier;}
 		set { _levelModifier = value;}
 
+	}
+
+	public string Name {
+		get {return _name;}
+		set {_name = value;}
 	}
 
 

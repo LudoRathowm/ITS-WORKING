@@ -62,7 +62,10 @@
      <Compile Include="Assets\Scriptss\GameMaster.cs" />
      <Compile Include="Assets\Scriptss\GameSettings.cs" />
      <Compile Include="Assets\Scriptss\HUD Classes\VitalBar.cs" />
-     <Compile Include="Assets\Scriptss\Item.cs" />
+     <Compile Include="Assets\Scriptss\Items\BuffItem.cs" />
+     <Compile Include="Assets\Scriptss\Items\Item.cs" />
+     <Compile Include="Assets\Scriptss\Items\Jewelry.cs" />
+     <Compile Include="Assets\Scriptss\Items\Weapon.cs" />
      <Compile Include="Assets\Scriptss\Mob.cs" />
      <Compile Include="Assets\Scriptss\MobGenerator.cs" />
      <Compile Include="Assets\Scriptss\PlayerAttack.cs" />

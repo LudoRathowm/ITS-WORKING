@@ -2,7 +2,7 @@
 	private string _name;
 
 	public Attribute() {
-		_name = "";
+	//	_name = "";
 		ExpToLevel = 50;
 		LevelModifier = 1.05f;
 	}
