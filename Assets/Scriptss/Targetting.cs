@@ -58,15 +58,19 @@ public class Targetting : MonoBehaviour {
 		} 
 		SelectTarget();
 	}
-	private void SelectTarget()
-	{ 
+ 
+		private void SelectTarget()
+		{ 
+
 		selectedTarget.renderer.material.color = Color.red;
 
 		PlayerAttack pa = GetComponent<PlayerAttack> ();
 		pa.target = selectedTarget.gameObject;
-		}
+	}
 	private void DeselectTarget()
-	{selectedTarget.renderer.material.color = Color.white;
+	{
+
+ 		selectedTarget.renderer.material.color = Color.white;
 		selectedTarget = null;
 		}
 

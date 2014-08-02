@@ -1,19 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scriptss\CSMessenger Extended\Messenger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scriptss\GameMaster.cs">
     <Files>
-      <File FileName="Assets\Scriptss\HUD Classes\VitalBar.cs" Line="33" Column="21" />
-      <File FileName="Assets\Scriptss\GameSettings.cs" Line="115" Column="1" />
-      <File FileName="Assets\Scriptss\Character Classes\BaseCharacter.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scriptss\GameMaster.cs" Line="51" Column="56" />
-      <File FileName="Assets\Scriptss\Character Classes\CharacterGenerator.cs" Line="77" Column="3" />
-      <File FileName="Assets\Scriptss\Character Classes\ModifiedStat.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scriptss\Character Classes\Skill.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scriptss\Character Classes\Vital.cs" Line="2" Column="24" />
-      <File FileName="Assets\Scriptss\Character Classes\PlayerCharacter.cs" Line="25" Column="2" />
-      <File FileName="Assets\Scriptss\CSMessenger Extended\Callback.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scriptss\CSMessenger Extended\Messenger.cs" Line="133" Column="2" />
-      <File FileName="Assets\Scriptss\HUD Classes\VitalBar.cs" Line="20" Column="6" />
+      <File FileName="Assets\Scriptss\GameSettings.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scriptss\Item.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scriptss\CSMessenger Extended\Messenger.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scriptss\MobGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scriptss\PlayerAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scriptss\GameMaster.cs" Line="19" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
