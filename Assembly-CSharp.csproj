@@ -46,6 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scriptss\AI.cs" />
+     <Compile Include="Assets\Scriptss\AdvancedMovement.cs" />
+     <Compile Include="Assets\Scriptss\Bullet.cs" />
      <Compile Include="Assets\Scriptss\CSMessenger Extended\Callback.cs" />
      <Compile Include="Assets\Scriptss\CSMessenger Extended\Messenger.cs" />
      <Compile Include="Assets\Scriptss\Character Classes\Attribute.cs" />
@@ -56,20 +59,30 @@
      <Compile Include="Assets\Scriptss\Character Classes\PlayerCharacter.cs" />
      <Compile Include="Assets\Scriptss\Character Classes\Skill.cs" />
      <Compile Include="Assets\Scriptss\Character Classes\Vital.cs" />
+     <Compile Include="Assets\Scriptss\Chest.cs" />
      <Compile Include="Assets\Scriptss\EnemyAI.cs" />
      <Compile Include="Assets\Scriptss\EnemyAttack.cs" />
      <Compile Include="Assets\Scriptss\EnemyHealth.cs" />
+     <Compile Include="Assets\Scriptss\Explosions.cs" />
      <Compile Include="Assets\Scriptss\GameMaster.cs" />
      <Compile Include="Assets\Scriptss\GameSettings.cs" />
+     <Compile Include="Assets\Scriptss\GetPoked.cs" />
      <Compile Include="Assets\Scriptss\HUD Classes\VitalBar.cs" />
+     <Compile Include="Assets\Scriptss\HackAndSlashCamera.cs" />
+     <Compile Include="Assets\Scriptss\Items\Armor.cs" />
      <Compile Include="Assets\Scriptss\Items\BuffItem.cs" />
+     <Compile Include="Assets\Scriptss\Items\Clothing.cs" />
+     <Compile Include="Assets\Scriptss\Items\Consumable.cs" />
      <Compile Include="Assets\Scriptss\Items\Item.cs" />
      <Compile Include="Assets\Scriptss\Items\Jewelry.cs" />
      <Compile Include="Assets\Scriptss\Items\Weapon.cs" />
      <Compile Include="Assets\Scriptss\Mob.cs" />
      <Compile Include="Assets\Scriptss\MobGenerator.cs" />
+     <Compile Include="Assets\Scriptss\Movement.cs" />
      <Compile Include="Assets\Scriptss\PlayerAttack.cs" />
      <Compile Include="Assets\Scriptss\PlayerHealth.cs" />
+     <Compile Include="Assets\Scriptss\PlayerInput.cs" />
+     <Compile Include="Assets\Scriptss\PlayerSwitch.cs" />
      <Compile Include="Assets\Scriptss\TargetMob.cs" />
      <Compile Include="Assets\Scriptss\Targetting.cs" />
      <Compile Include="Assets\TerrainToolkit\TerrainToolkit.cs" />
