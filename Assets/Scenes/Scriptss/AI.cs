@@ -17,9 +17,9 @@ public class AI : MonoBehaviour {
 		Flee
 		}
 
-	public float preceptionRadius = 10;
+	public float preceptionRadius = 40;
 
-	public float baseMeleeRange = 3.5f;
+	public float baseMeleeRange = 30f;
 	public Transform target; //ie. the transform of the player
 
 	private Transform _myTransform;
@@ -29,7 +29,7 @@ public class AI : MonoBehaviour {
 
 	private Transform _home;
 	private State _state;
-	private bool _alive = true;
+	public bool _alive = true;
 	private SphereCollider _sphereCollider;
 	private float MovSpeed;
 
@@ -174,6 +174,7 @@ public class AI : MonoBehaviour {
 
 				if (target) {
 						Vector3 dir = (target.position - _myTransform.position).normalized;
+			Debug.DrawLine (_myTransform.position, target.position, Color.white);
 						float direction = Vector3.Dot (dir, transform.forward);
 			
 						float dist = Vector3.Distance (target.position, _myTransform.position);
@@ -203,8 +204,8 @@ public class AI : MonoBehaviour {
 		if (other.CompareTag ("Player")) {
 			target = other.transform;
 			_alive = true;
-			GameObject obama = GameObject.Find("Obama");
-			obama.GetComponent<AdvancedMovement>().walkSpeed = 35;
+
+			GetComponent<AdvancedMovement>().walkSpeed = 30f;
 			StartCoroutine("FSM");
 		}
 
@@ -215,8 +216,7 @@ public class AI : MonoBehaviour {
 	//Debug.Log ("EXIT");
 		if (other.CompareTag ("Player")) {
 			target = _home;
-			GameObject obama = GameObject.Find("Obama");
-			obama.GetComponent<AdvancedMovement>().walkSpeed = 0.7f;
+			GetComponent<AdvancedMovement>().walkSpeed = 30f;
 			//			_alive = false;
 		}
 
@@ -225,8 +225,8 @@ public class AI : MonoBehaviour {
 	}
 	private void setSpeed(){
 
-        GameObject obama = GameObject.Find("Obama");
-		obama.GetComponent<AdvancedMovement>().walkSpeed = 2;
+        
+		GetComponent<AdvancedMovement>().walkSpeed = 2;
 
 
 		Debug.Log ("maybe");

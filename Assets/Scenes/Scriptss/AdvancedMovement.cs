@@ -28,7 +28,7 @@ public class AdvancedMovement : MonoBehaviour {
 	public float gravity = 20;
 	public float airTime = 0; //how long have we been in the air
 	public float fallTime = .5f; //the lenght of time we can fall before the system notices it
-	public float jumpHeight = 200; 
+	public float jumpHeight = 4; 
 	public float jumpTime = 1.5f; 
 
 	public CollisionFlags _collisionFlags;
