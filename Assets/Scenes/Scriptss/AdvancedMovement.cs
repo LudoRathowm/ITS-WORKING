@@ -57,11 +57,13 @@ public class AdvancedMovement : MonoBehaviour {
 						switch (_state) {
 						case State.Init:
 						Init();
+
 								break;
 								case State.Setup:
 				            SetUp();
 								break;
 			            case State.Run:
+			
 				             ActionPicker();
 				                break;
 			

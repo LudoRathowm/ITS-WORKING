@@ -40,6 +40,10 @@ public class PlayerSwitch : MonoBehaviour {
 			
 
 		if(Input.GetButton("Player Switch2")){ 
+			player1.GetComponent<HealerAI>().enabled = true;
+			player1.GetComponent<PlayerHealth>().active = false;
+			player2.GetComponent<PlayerHealth>().active = true;
+			player3.GetComponent<PlayerHealth>().active = false;
 			player3.GetComponent<LookAtMouse> ().enabled = false;
 			player2.GetComponent<LookAtMouse> ().enabled = true;
 			player1.GetComponent<LookAtMouse> ().enabled = false;
@@ -56,6 +60,10 @@ public class PlayerSwitch : MonoBehaviour {
 			player1.GetComponent<Backsliding> ().enabled = false;
 	}
 		if(Input.GetButton("Player Switch3")){ 
+			player1.GetComponent<HealerAI>().enabled = true;
+			player2.GetComponent<PlayerHealth>().active = false;
+			player1.GetComponent<PlayerHealth>().active = false;
+			player3.GetComponent<PlayerHealth>().active = true;
 			player3.GetComponent<LookAtMouse> ().enabled = true;
 			player2.GetComponent<LookAtMouse> ().enabled = false;
 			player1.GetComponent<LookAtMouse> ().enabled = false;
@@ -73,6 +81,10 @@ public class PlayerSwitch : MonoBehaviour {
 		}
 
 		if(Input.GetButton("Player Switch1")){ 
+			player1.GetComponent<HealerAI>().enabled = false;
+			player3.GetComponent<PlayerHealth>().active = false;
+			player1.GetComponent<PlayerHealth>().active = true;
+			player2.GetComponent<PlayerHealth>().active = false;
 			player3.GetComponent<LookAtMouse> ().enabled = false;
 			player2.GetComponent<LookAtMouse> ().enabled = false;
 			player1.GetComponent<LookAtMouse> ().enabled = true;

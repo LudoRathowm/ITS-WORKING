@@ -9,6 +9,8 @@ public class Backsliding : MonoBehaviour {
 	private float walkSpeed = 1000;
 	public GameObject Clone;
 	GameObject parenthood;
+	public float speed = 600000.0f;
+	public float jumpSpeed = 80000000.0f;
 
 	// Use this for initialization
 	 void Start () {
@@ -18,28 +20,33 @@ public class Backsliding : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		CharacterController controller = GetComponent<CharacterController>();
+	//	if (controller.isGrounded) {
+	//		_moveDirection = new Vector3 (Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+	//		_moveDirection = transform.TransformDirection(_moveDirection);
+	//		_moveDirection *=speed;
+	//	}
 		
-		
-		if(Input.GetButtonUp("Backslide")){ 
-
+		if (Input.GetButtonUp ("Backslide")) { 
+		//	var newPos = controller.transform.position.x - 50;
+		//	controller.transform.position.x = Mathf.Lerp(controller.transform.position.x, newPos, .5f);
+		//	_moveDirection.x = jumpSpeed;
 
 			GameObject backslideclone = (GameObject)Instantiate(Resources.Load("BackslideClone"),transform.position,Quaternion.identity ); 
 
-			CharacterController controller = GetComponent<CharacterController>();
+	
 			Vector3 backslide = transform.TransformDirection(Vector3.back);
-		//	transform.Translate (Vector3.back *Time.deltaTime);
-			transform.Translate(backslide * (350)*Time.deltaTime, Space.World);
-
-		/*	controller.SimpleMove(backslide * 50);
-			float speed = 5000f;
-		float curSpeed = speed * Input.GetAxis("Backslide");
-			controller.SimpleMove(backslide * curSpeed);
-*/
+			controller.transform.Translate(backslide * (350)*Time.deltaTime, Space.World);
 
 
-		
-		
+	//		float speed = 150000f;
+	//	float curSpeed = speed * Input.GetAxis("Backslide");
+	//		controller.SimpleMove(backslide *curSpeed* Time.deltaTime);
+	//		controller.SimpleMove(backslide * curSpeed);
+
+
 			
-		}
+	}
+	//	controller.Move (_moveDirection * Time.deltaTime);
 	}
 }

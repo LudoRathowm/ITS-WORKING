@@ -28,6 +28,8 @@ public class EnemyHealth : MonoBehaviour {
 		curHealth += adj; 
 		if (curHealth < 0)
 			curHealth = 0;
+		if (curHealth == 0)
+			Destroy (gameObject);
 		if (curHealth > maxHealth) 
 			curHealth = maxHealth;
 		if (maxHealth < 1)

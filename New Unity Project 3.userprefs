@@ -1,17 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scenes\Scriptss\HackAndSlashCamera.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Platformer\Assets\Weapon.cs">
     <Files>
-      <File FileName="Assets\Scenes\Scriptss\HackAndSlashCamera.cs" Line="132" Column="73" />
-      <File FileName="Assets\Scenes\Scriptss\Bullethit.cs" Line="19" Column="24" />
-      <File FileName="Assets\Scenes\Scriptss\AI.cs" Line="207" Column="4" />
-      <File FileName="Assets\Scenes\Scriptss\BackslideClone.cs" Line="23" Column="3" />
+      <File FileName="..\Platformer\Assets\Weapon.cs" Line="23" Column="12" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="C:\Users\cykaxoxo\Documents\New Unity Project 3\Assets\Scenes\Scriptss\AISpearman.cs" line="149" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
